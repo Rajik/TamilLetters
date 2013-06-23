@@ -2,12 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Tamil extends JApplet  {
-    private JPanel panel1;
-    private JLabel TamilLabel;
 
     public void init() {
         String rt = "teriter\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD";
-//        String rt="\u0B87\u0BA4\u0BC1"+" "+"\u0BA4\u0BAE\u0BB4\u0BB4\u0BCD";
         Container cp= getContentPane();
         cp.setLayout(new FlowLayout());
         JLabel b=new JLabel();
